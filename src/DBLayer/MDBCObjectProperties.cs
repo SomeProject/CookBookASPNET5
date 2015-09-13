@@ -42,8 +42,8 @@ namespace DBLayer
         /// <summary>
         /// Add filter, wich reduce selection
         /// </summary>
-        /// <param name="key"></param>
-        /// <param name="value"></param>
+        /// <param name="key">filter field name</param>
+        /// <param name="value">filter field value</param>
         public void AddFilter(string key, object value)
         {
             if (Filters.ContainsKey(key))
